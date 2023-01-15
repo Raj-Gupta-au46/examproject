@@ -1,0 +1,37 @@
+#form2{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"],input[type="number"],input[type="email"],input[type="password"],textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 14px;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    color: blue;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    color: white;
+}
+h2{
+    margin-top: 3px;
+}
